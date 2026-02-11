@@ -1,7 +1,3 @@
-/*pour ousmaneeeeee */
-/* ============================================================
-   VARIABLES ET BASES
-   ============================================================ */
 :root {
     --vert-nature: #2ecc71;
     --vert-sombre: #27ae60;
@@ -31,9 +27,6 @@ body {
     padding: 20px;
 }
 
-/* ============================================================
-   EN-TÊTE (HEADER)
-   ============================================================ */
 header, #entete-principale {
     background: linear-gradient(135deg, var(--bleu-tech), var(--vert-sombre));
     color: var(--blanc);
@@ -53,9 +46,6 @@ header h1, #entete-principale h1 {
     color: var(--vert-nature);
 }
 
-/* ============================================================
-   NAVIGATION
-   ============================================================ */
 nav, #navigation-principale {
     background-color: var(--bleu-tech);
     position: sticky;
@@ -88,9 +78,6 @@ nav a:hover, .liste-navigation a:hover {
     color: var(--vert-nature) !important;
 }
 
-/* ============================================================
-   GRILLES ET CARTES (HOME & PAGES)
-   ============================================================ */
 main, .container {
     padding: 40px 20px;
 }
@@ -143,9 +130,6 @@ h3 {
     background-color: var(--vert-sombre);
 }
 
-/* ============================================================
-   IMAGES ET BANNIÈRES
-   ============================================================ */
 .conteneur-image, #banniere-image {
     margin-top: 40px;
     border-radius: 15px;
@@ -156,14 +140,11 @@ h3 {
 .image-hero, .image-illustration {
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     object-fit: cover;
-    max-height: 450px;
+    align-items: center;
 }
 
-/* ============================================================
-   TABLEAUX ET ÉLÉMENTS SPÉCIFIQUES
-   ============================================================ */
 .tableau-donnees {
     width: 100%;
     border-collapse: collapse;
@@ -202,7 +183,6 @@ blockquote, .note-ecologique {
     font-weight: bold;
 }
 
-/* Style spécifique pour Mobilité (boîtes d'info) */
 .section {
     display: flex;
     gap: 20px;
@@ -224,9 +204,6 @@ blockquote, .note-ecologique {
     border-radius: 15px;
 }
 
-/* ============================================================
-   PIED DE PAGE (FOOTER)
-   ============================================================ */
 footer, #pied-de-page {
     background-color: var(--bleu-tech);
     color: var(--blanc);
@@ -324,6 +301,4 @@ body body{
               color: white; 
               margin-top: 40px;
              }
-   
 
-/* Fin du style pour ousmaneeeeeeeeeeee */
