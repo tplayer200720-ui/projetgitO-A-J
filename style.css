@@ -156,7 +156,7 @@ h3 {
 .image-hero, .image-illustration {
     width: 100%;
     height: auto;
-    display: block
+    display: block;
     object-fit: cover;
     max-height: 450px;
 }
