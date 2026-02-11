@@ -156,7 +156,7 @@ h3 {
 .image-hero, .image-illustration {
     width: 100%;
     height: auto;
-    display: block;
+    display: block
     object-fit: cover;
     max-height: 450px;
 }
@@ -213,11 +213,15 @@ blockquote, .note-ecologique {
 
 .box {
     background: var(--bleu-tech);
-    color: var(--blanc);
+    color: var(--black);
     padding: 20px;
     border-radius: 10px;
     flex: 1;
     min-width: 250px;
+}
+.photo-v {
+    border: solid black 8px;
+    border-radius: 15px;
 }
 
 /* ============================================================
